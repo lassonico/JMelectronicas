@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#303952">
+    <meta name="description" content="Página web de servicio técnico de televisores y equipos de sonido">
+    <meta name="author" content="Nicolas Lasso Rodriguez">
+    <meta name="keywords" content="reparación mantenimiento televisor equipo de sonido Panasonic Sony Kalley">
+    
+    <link rel="icon" href="./img/tv.svg">
+    <link rel="prefetch" href="#contacto" as="form">
+
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="preload" href="app.css" as="style">
+    <link rel="stylesheet" href="app.css">
+
+    <title>Electrónicas JM | Servicio técnico de Televisores equipos de sonido y electrodoméstico en general | LCD - SMARTV - SONIDO</title>
+</head>
+<body>
+    <section class="hero portada" id="inicio">
+        <div class="contenedor-nav">
+            <a href="#inicio">
+                <img src="./img/LogoJM.svg" alt="logotipo de la empresa" class="logotipo">
+            </a>
+            <nav class="navegacion-principal">
+                <a href="#servicios" class="enlace">Servicios</a>
+                <a href="#sobremi" class="enlace">Sobre mi</a>
+                <a href="#contacto" class="enlace">Contacto</a>
+                <a href="#marcas" class="enlace">Marcas</a>
+                <div class="contenedor__rrss">
+                    <a class="enlace" href="https://www.facebook.com/jesusmaria.lassogutierrez.9" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" /*stroke="#fff"*/ fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </a>
+                    <a class="enlace" href="https://www.instagram.com/jmextremo586/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" /*stroke="#fff"*/ fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                        </svg>
+                    </a>
+                    <a class="enlace" href="https://api.whatsapp.com/send?phone=573164546330" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" /*stroke="#fff"*/ fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                            <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                          </svg>
+                    </a>
+                </div>
+            </nav>
+            <div class="contenedor-ham">
+                <svg xmlns="http://www.w3.org/2000/svg" id="ham" class="icon icon-tabler icon-tabler-align-right animationham" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="10" y1="12" x2="20" y2="12"/>
+                    <line x1="6" y1="18" x2="20" y2="18" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" id="x" class="icon icon-tabler icon-tabler-x animationx" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
+            </div>
+            
+        </div>
+        <div class="contenido-hero">
+            <h1>Soy Jesús María Lasso</h1>
+            <h2 class="subtitle">Técnico profesional en electrónica</h2>
+        </div>
+        <a href="#contacto" class="btn-primary">Contáctame</a>
+
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 400" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="#e7e7e7" offset="0%"></stop><stop stop-color="#e7e7e7" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,120L1440,360L2880,40L4320,280L5760,160L7200,200L8640,120L10080,200L11520,320L12960,0L14400,40L15840,200L17280,320L18720,160L20160,0L21600,80L23040,0L24480,360L25920,80L27360,0L28800,0L30240,200L31680,240L33120,120L34560,200L34560,400L33120,400L31680,400L30240,400L28800,400L27360,400L25920,400L24480,400L23040,400L21600,400L20160,400L18720,400L17280,400L15840,400L14400,400L12960,400L11520,400L10080,400L8640,400L7200,400L5760,400L4320,400L2880,400L1440,400L0,400Z"></path></svg>
+    </section>
+    
+    <div id="servicios" class="servicios"></div>
+
+    <main class="main-servicios">
+        <h2>Mis servicios</h2>
+        <p class="texto__servicios">Éstos son algunos de los servicios que brindo</p>
+        <div class="bloque contenedor-servicios">
+            <div data-aos="fade-down" class="contenedor-servicio">
+                <h3>Reparación</h3>
+                <img class="imagen__servicios" src="img/multimeter-5170461.svg" alt="imagen servicio 1 Imagen de Anton Fritsler">
+                <p>Si te deja de funcionar tu televisor o tu equipo de sonido, no te preocupes, yo te lo arreglo. Reparamos toda clase de televisores, desde los más modernos hasta los más antiguos, y también equipos de sonido de todas las categorías.</p>
+            </div>
+            <div data-aos="fade-down" class="contenedor-servicio">
+                <h3>Mantenimiento</h3>
+                <img class="imagen__servicios" src="img/mantenimiento.svg" alt="imagen servicio 2 Imagen de Lukas Adams">
+                <p>Es mejor prevenir que lamentar. El mantenimiento de tu equipo de sonido o televisor ayuda a alargar su vida útil. Te hacemos el mantenimiento de tu televisor o equipo para que puedas disfrutar por más tiempo su uso.</p>
+            </div>
+        </div>
+    </main>
+    <div id="sobremi" class="bloque contenedor-sobremi">
+        <div data-aos="fade-right" class="interior-sobremi">
+            <picture>
+                <source loading="lazy" srcset="./img/perfil.webp" type="image/webp"/>
+                <img loading="lazy" class="sobreMi" src="./img/perfil.jpg" alt="Imagen sobre mi"/>
+            </picture>
+            <div>
+                <h2>Sobre mi</h2>
+                <p class="text-sobremi">Soy Técnico profesional en electrónica del Sena, con más de 30 años de experiencia en el campo de la reparación y el mantenimiento de televisores y equipos de sonido. Un apasionado por el ciclomontañismo y los deportes extremos, de la sana alimentación y el cuidado del estado físico. Contáctame, estaré atento para atenderte.</p>
+            </div>
+        </div>
+    </div>
+    <div class="carrusel" id="marcas"></div>
+    <div class="carrusel__items">
+    <h2 class="carrusel__tittle">Algunas marcas con las que trabajamos</h2>
+    <div id="carrusel__item" class="carrusel__item">
+        <img loading="lazy" src="img/marcas/Panasonic.svg" alt="imagen marca">
+        <img loading="lazy" src="img/marcas/Pioneer.svg" alt="imagen marca">
+        <img loading="lazy" src="img/marcas/Samsung.svg" alt="imagen marca">
+        <img loading="lazy" src="img/marcas/Sanyo.svg" alt="imagen marca">
+        <img loading="lazy" src="img/marcas/Sharp.svg" alt="imagen marca">
+        <img loading="lazy" src="img/marcas/Sony.svg" alt="imagen marca">
+        <img loading="lazy" src="img/marcas/Toshiba.svg" alt="imagen marca">
+        <img loading="lazy" src="img/marcas/LG_Electronics.svg" alt="imagen marca">
+        <img src="img/marcas/Fujitsu.svg" alt="imagen marca">
+        <img src="img/marcas/Mitsubishi.svg" alt="imagen marca">
+    </div>
+    </div>
+    <div class="contenedor__contacto">
+        <!-- <source loading="lazy" srcset="./img/img-contacto.webp" type="image/webp"/> -->
+        <img loading="lazy" class="imagen__contacto" src="img/img-contacto.jpg" alt="imagen de contacto">
+    </div>
+    <p class="texto__contacto">Cantáctame, estaré atento para atenderte</p>
+    <div id="contacto" class="contacto"></div>
+    <section data-aos="fade-right" class="contenedor-contacto">
+        <form class="formulario" id="formulario">
+            <h2>Contáctame</h2>
+            <div class="contenedor-input">
+                <label for="nombre">Nombre completo</label>
+                <input placeholder="Ingresa tu nombre" name="nombre" id="nombre" autocomplete="off" type="text"/>
+                <div class="error-nombre"></div>
+            </div>
+            <div class="contenedor-input">
+                <label for="telefono">Teléfono</label>
+                <input placeholder="ingresa tu WhatsApp" name="telefono" id="telefono" autocomplete="off" type="text" inputmode="numeric"/>
+                <div class="error-tel"></div>
+            </div>
+            <div class="contenedor-input">
+                <label for="email">Correo electrónico</label>
+                <input placeholder="Ingrsa tu email" name="email" id="email" autocomplete="off" type="text"/>
+                <div class="error-email"></div>
+
+            </div>
+            <div class="contenedor-input">
+                <label for="mensaje">Mensaje</label>
+                <textarea placeholder="Cuéntame en qué te puedo ayudar (Mínimo 10 caracteres)" type="text" id="mensaje" name="mensaje"></textarea>
+                <div class="error-mensaje"></div>
+
+            </div>
+            <div class="contenedor-submit">
+                <button type="submit" class="btn-primary opacity-50" value="Enviar" disabled>Enviar</button>
+                <button type="reset" class="btn-primary btn-primary--limpiar" value="Limpiar">Limpiar</button>
+            </div>
+            <p class="text-privacy">Tus datos no serán almacenados</p>
+        </form>
+    </section>
+    
+    <a class="up">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="16" y1="9" x2="12" y2="5" />
+            <line x1="8" y1="9" x2="12" y2="5" />
+          </svg>
+    </a>
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <div class="footer__horario">
+                <h2>Horario de atención</h2>
+                <h4>lunes a viernes:</h4>
+                <p>8:00 AM a 6:00 PM</p>
+                <h4>Sábados:</h4>
+                <p>9:00 AM a 1:00 PM</p>
+            </div>
+            <div class="footer__contacto">
+                <h2>Contácto</h2>
+                <h4>Dirección:</h4>
+                <p>Carrera 2w No 66 a - 19</p>
+                <p>Barrio Chicalá Neiva</p>
+                <h4>Teléfono:</h4>
+                <p>3164546330</p>
+                <h4>Correo:</h4>
+                <p>contacto@jmelectronicas.com</p>
+                <h4>Sígueme:</h4>
+                <div class="footer__rrss">
+                    <a href="https://www.facebook.com/jesusmaria.lassogutierrez.9" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg> 
+                    </a>
+                    <a href="https://www.instagram.com/jmextremo586/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">Todos los derechos reservados 2022 <span class="nombre">Jesus Maria Lasso</span></p>
+    </footer>
+
+    <!-- MODAL -->
+
+    <div class="contenedor__modal oculto">
+        <div class="modal__speener oculto"><div class="lds-ripple"><div></div><div></div></div></div>
+        <div class="modal oculto">
+            <div>
+                <h2 class="modal__title">¡Excelente!</h2>
+                <button class="cerrar cerrarModal">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+            <p>He recibido tus datos. Me contactaré contigo a la menor brevedad</p>
+            <button class="btn__aceptar">Aceptar</button>
+        </div>
+    </div>
+
+    <script src="modernizer.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="formulario.js"></script>
+    <script>
+         AOS.init();
+    </script>
+</body>
+</html>
